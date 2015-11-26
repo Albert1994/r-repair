@@ -1,0 +1,18 @@
+ <header>
+        <div id="logo">
+            <a href="/"><span>R</span>-repair</a>
+        </div>
+        <div id="menuHead">
+            <a href="/"> <div>О нас</div></a>
+            <a href="/"><div>Обратная связь</div></a>
+        </div>
+        <div id="regAuth">
+              <% if user_signed_in? %>
+    <span>Здравствуйте, <%= current_user.email %></span>
+    <%= link_to 'Выйти', destroy_user_session_path, :method => :delete %>
+<% else %>
+    <%= link_to 'Войти', new_user_session_path %> | <%= link_to 'Зарегистрироваться', new_user_registration_path %>
+<% end %>
+        </div>
+    </header>
+  

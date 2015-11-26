@@ -13,3 +13,137 @@
  *= require_tree .
  *= require_self
  */
+html{
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: black;
+	font-family: "Segoe UI", Arial. sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+}
+a{
+    color: firebrick;
+    text-decoration: none;
+}
+a:hover{
+    color: #efdea0;
+}
+a, a hover{
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.clear{
+    clear: both;
+}
+#wrapper{
+    width: 80%;
+    float:left;
+    margin-left: 10%;
+}
+/*@madia screen and (max-width: 799px){
+#wrapper #leftCol{
+    width: 90%;
+    float: left;
+    margin-right: 5%;
+    }
+#wrapper #rightCol{
+    width: 80%;
+    margin-left: 5%;
+    }}
+@madia all and (min-width: 100px), all and(max-width: 1000px){*/
+    
+#wrapper #leftCol{
+    width: 70%;
+    float: left;
+    margin-right: 10%;
+    }
+#wrapper #rightCol{
+    width: 20%;
+    float: left;
+    }
+#wrapper #leftCol label{
+    width: 30%;
+    float: left;
+    
+}
+#wrapper #leftCol .article div.more{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #696158;
+    color: #fff;
+    width: 20%;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#wrapper #leftCol .article{
+    float: left;
+    width: 44%;
+    margin-left: 5%;    
+    background-color: #dedede;
+    padding: 1%;
+    border-bottom: 1px solid #d8cfcf;
+    box-sizing: border-box;
+
+}
+#wrapper #leftCol #bigArticle{
+    width: 78%;
+    margin-left: 10%;
+    background-color: #fff;
+    padding: 1%;
+    float: left:
+}
+#wrapper #leftCol #bigArticle img, #wrapper #leftCol .article img{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+#wrapper #leftCol #bigArticle h2,#wrapper #leftCol .article h2{
+    font-weight: normal;
+    font-size: 1.3em;
+    color:black;
+    font-family: Comic Sams MS, sans-serif;
+}
+#wrapper #leftCol #bigArticle p,#wrapper #leftCol .article p{
+    width: 95%;
+    margin-left: 5%;
+}
+#wrapper #leftCol #bigArticle div.more{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #696158;
+    color: #fff;
+    width: 10%;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#wrapper #leftCol #bigArticle div.more:hover,#wrapper #leftCol .article div.more:hover{
+    background-color: #90887f;
+}
+
+#wrapper #rightCol .banner{
+    width: 100%;
+    float:left;
+    margin-bottom:  30px;
+    border: 2px solid #d8cfcf;
+    box-sizing: border-box;
+}
+
+
+
+

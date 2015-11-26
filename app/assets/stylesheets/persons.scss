@@ -1,3 +1,72 @@
 // Place all the styles related to the persons controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// header //
+header {
+    width: 98%;
+    margin-bottom: 20px;
+    float: left;
+    padding: 1%;
+    background-color: #fafafa;
+    border-bottom: 2px solid #d8cfcf;
+}
+header #logo{
+   width: 40%;
+   float: left;
+}
+
+header #logo span{
+    color: darkred
+}
+header #logo a{
+    color: #a29c9c;
+    font-size: 2em;
+    font-family: Times New Roman, sans-serif;
+}
+header #menuHead {
+    width: 25%;
+    float: left;
+}
+header #menuHead div{
+    float: left;
+    margin-right: 5%;
+    padding: 5px;
+    background-color: #d8cfcf;
+    border-radius: 10px;
+    color: #fff;
+}
+header #menuHead div:hover{
+    background-color: #958f8f;
+}
+header #regAuth{
+    width: 30%;
+    float: left;
+    text-align: right;
+    font-size: 1.2em;
+}
+//footer
+footer{
+    width: 98%;
+    float: left;
+    padding:  1%;
+    background-color: #fafafa;
+    border-top: 2px solid #d8cfcf;
+    margin-top: 10px;
+}
+footer #social{
+    float: left;
+    width: 50%;
+}
+footer #social img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 7px;
+}
+
+footer #rights {
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 1.1em;
+}
